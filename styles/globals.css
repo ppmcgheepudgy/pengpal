@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply select-none;
+}
+
+.grid-sizer {
+  width: 5%;
+}
+
+.item {
+  float: left;
+  height: auto;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  font-size: 36px;
+  color: white;
+  @apply w-full md:w-1/2 lg:w-1/4;
+}
+
+.react-tooltip {
+  @apply !opacity-100 !bg-white shadow-lg z-50 max-w-fit;
+}
